@@ -1,0 +1,19 @@
+# --- Database ---
+# We don't push the local database because it contains temporary test data.
+db.sqlite3
+
+# --- Python System Files ---
+# These are compiled files created by Python. They are not needed for the code to run.
+__pycache__/
+*.pyc
+
+# --- macOS System Files ---
+# This is a hidden file Mac creates to store folder settings. It's "junk" for GitHub.
+.DS_Store
+
+# --- Environments & Secrets ---
+# The virtual environment is too large to push; others should create their own.
+venv/
+
+# .env contains sensitive passwords or keys. NEVER push this to a public repo.
+.envv
